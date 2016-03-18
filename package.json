@@ -2,7 +2,7 @@
   "name": "mention-bot",
   "version": "0.0.1",
   "license": "BSD-3-Clause",
-  "repository": "facebook/mention-bot",
+  "repository": "bunto/mention-bot",
   "scripts": {
     "test": "flow && jest",
     "start": "node run-server.js"
