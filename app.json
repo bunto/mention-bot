@@ -1,20 +1,20 @@
 {
   "name": "mention-bot",
   "description": "Automatically mention potential reviewers on pull requests.",
-  "repository": "https://github.com/facebook/mention-bot",
+  "repository": "https://github.com/bunto/mention-bot",
   "logo": "https://avatars0.githubusercontent.com/u/15710697",
-  "keywords": ["node", "express", "github", "pull requests"],
+  "keywords": ["node", "express", "github", "pull requests", "bunto", "facebook"],
   "env": {
     "GITHUB_TOKEN": {
-      "description": "A token generated for the account which will comment on your pull requests.",
+      "description": "A token generated for the bot account which will comment on your pull requests.",
       "required": true
     },
     "GITHUB_USER": {
-      "description": "If you want mention-bot to work with private repos, you need to add your github login",
+      "description": "If you want mention-bot to work with private repos, you need to add your bot GitHub login",
       "required": false
     },
     "GITHUB_PASSWORD": {
-      "description": "Password for Github account.",
+      "description": "Password for bot GitHub account.",
       "required": false
     }
   }
