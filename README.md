@@ -99,9 +99,14 @@ If you want to use a different account for the bot, change the message or extend
 git clone https://github.com/facebook/mention-bot.git
 cd mention-bot
 npm install
+set GITHUB_TOKEN=<token you generated in the github account of your bot>
+set GITHUB_USER=<username of the bot>
+set GITHUB_PASSWORD=<password of the bot>
 npm start
 # Follow the instructions there
 ```
+
+> Use `set` on Windows and `export` on Mac and Linux!
 
 Alternatively, click the button below:
 
