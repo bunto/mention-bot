@@ -107,6 +107,18 @@ Alternatively, click the button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+or run this:
+
+```bash
+# Start Heroku project:
+heroku create
+heroku apps:rename bunto-mention-bot
+# Publish your commits:
+git push heroku master
+# If you removed this repo and want to clone it again, do this:
+heroku git:remote -a project
+```
+
 If you would like the mention-bot to function on private repositories, set the `GITHUB_USER` and `GITHUB_PASSWORD` environment variables. You must disable two-factor authentication or you will receive a console log like this: `Login to ${USERNAME} failed`.
 
 You can also set a `REQUIRED_ORG` environment variable, so you don't have to configure it in each repository of your organization.
