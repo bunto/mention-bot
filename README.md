@@ -1,6 +1,6 @@
 # mention-bot [![Build Status](https://travis-ci.org/bunto/mention-bot.svg?branch=master)](https://travis-ci.org/bunto/mention-bot)
 
-> This project is based on the Facebook's mention-bot!
+> This project is based on the [Facebook's mention-bot](https://github.com/facebook/mention-bot)!
 
 Do you have a GitHub project that is too big for people to subscribe to all the notifications? The mention bot will automatically mention potential reviewers on pull requests. It helps getting faster turnaround on pull requests by involving the right people early on.
 
@@ -11,7 +11,7 @@ Do you have a GitHub project that is too big for people to subscribe to all the 
 - Go to
  - your project on GitHub > Settings > Webhooks & services > Add Webhook or
  - your organization on GitHub > Settings > Webhooks > Add Webhook
-- Payload URL: `https://mention-bot.herokuapp.com/`
+- Payload URL: `https://bunto-mention-bot.herokuapp.com/`
 - Let me select individual events > Check `Pull Request`
 - Add Webhook
 
