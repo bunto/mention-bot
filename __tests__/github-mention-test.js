@@ -17,7 +17,7 @@ require.requireActual('babel-polyfill');
 var mentionBot = require('../mention-bot.js');
 var fs = require('fs');
 
-describe('Github Mention', function() {
+describe('Github Mention for Bunto community', function() {
 
   function getFile(filename) {
     return fs.readFileSync(__dirname + '/data/' + filename, 'utf8');
