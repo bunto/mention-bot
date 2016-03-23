@@ -1,6 +1,4 @@
 # Travis CI
-sudo: required
-
 language: node_js
 
 cache:
@@ -8,7 +6,7 @@ cache:
   - node_modules
   - "$NVM_DIR"
 
-  node_js:
+node_js:
 - v5
 - v4
 
