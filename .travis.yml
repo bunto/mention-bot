@@ -1,16 +1,17 @@
-# Tracis CI
+# Travis CI
 language: node_js
 
 cache:
-    directories:
-        - node_modules
-        - $NVM_DIR
+  directories:
+  - node_modules
+  - "$NVM_DIR"
 
-node_js:
-  - v5
-  - v4
+  node_js:
+- v5
+- v4
 
 deploy:
   provider: heroku
-  api_key: "3c29b8ad-3a2b-4737-acbd-40d87812436c"
+  api_key:
+    secure: fVheZ4KAqIXTKeslo/iBqt6jAlgJS58hsWa9TafCoFIZNrwrUkI3bJZZFUT4Sg+rZdGsqR946BEpJTKEs/rXV1fuJIX8awg78m1A7KAH3tAxX2TmMKEsjrSu2YSXwUSV4ojJ3+5d2A+tJMAZgSjtOHKqvC651b91zkgbDZ9AcfFMGqzXUQDA3T+TXT+n0Fbh5JLllMRMoFNTFMfb4OMpnMww/kwubU/j+TIGYim+u2fzWZ9lemWhx2R9Yz/nSdLIbB/cZHfz6xvry/xytzZGrBlRfLPqxAul5vYoSB6KRWQRoV7I+36wira5zadeg+iSOd3SbQKuO2WLY5jp44yMxgigEyV2zATWfjZ3spXiadRh7LnP3fitURmpeZLmZSzLkPfEU64PfGNkFIORZr2231pQ3KbkMIDAHrMjemMPw33fKm81elZF2sgO/TevKT1LCrOECHjbWv9f6soFeOanUUmx+BsGoDb1moLV9gwQzaRMmiv8QfvMVL1hmceevRBBryjQRWSYepQOoSoDC7ZhmuPSuKABRRP1cqqpJAJiaSI/wJvQW2M8OCFtwG5+j8W72lilYhMr8GwIS+OxgRKdxN8UCEJdufiGJavnALXOMQmTinNo2qcNCcWmTHGszTPG7kMxiZnpgefXC5RCw3t035jyK5gkpmlkw5CqGNQXI6E=
   app: bunto-mention-bot
