@@ -1,11 +1,15 @@
+# Travis CI
 language: node_js
+
 cache:
   directories:
   - node_modules
   - "$NVM_DIR"
+
 node_js:
 - v5
 - v4
+
 deploy:
   provider: heroku
   api_key:
