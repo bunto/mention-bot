@@ -9,3 +9,8 @@ cache:
 node_js:
   - v5
   - v4
+
+deploy:
+  provider: heroku
+  api_key: "3c29b8ad-3a2b-4737-acbd-40d87812436c"
+  app: bunto-mention-bot
